@@ -31,7 +31,7 @@ services:
     environment:       
       PMA_HOST: my_db  
       PMA_PORT: 3306
-      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:-root_password_default}       
+      MYSQL_ROOT_PASSWORD: root       
       # PMA_USER: ${DB_USERNAME:-user} # Opcional: Si quieres que phpMyAdmin use un usuario específico para iniciar sesión
       # PMA_PASSWORD: ${DB_PASSWORD:-password} # Opcional: Contraseña para el usuario PMA_USER
     networks:
