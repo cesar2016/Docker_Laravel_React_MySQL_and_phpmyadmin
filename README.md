@@ -15,6 +15,8 @@
 # 3 Ingresar desde el navegador
     Frontend: http://localhost:3001
     backend: http://localhost:8200
+
+    
     phpmyadmin: http://localhost:8300
         user: admin
         password: admin1234
