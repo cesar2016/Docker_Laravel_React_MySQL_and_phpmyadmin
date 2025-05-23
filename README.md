@@ -1,7 +1,7 @@
 
 - La finalidad de este repositorio es, poder levantar con unos pocos comandos de consola, un stack con lo necesario para trabajar con:
 
-    ## React ## Laravel ## MySQL ## PhpMyadmin ## Server Apache
+# React | Laravel | MySQL | PhpMyadmin | Server Apache
 
 ## Intrucciones para levantar el Entorno
 
