@@ -1,19 +1,23 @@
-Docker_Laravel_React_MySQL_and_phpmyadmin
-Un repo, donde con solo un par de comandos tendras el stack completo para trabajar con React y Laravel
 
+- La finalidad de este repositorio es, poder levantar con unos pocos comandos de consola, un stack con lo necesario para trabajar con:
 
-Intrucciones para levantar el Entorno
+    ## React
+    ## Laravel
+    ## MySQL
+    ## PhpMyadmin
+    ## Server Apache
 
-1_ colonar repositorio desde: 
+## Intrucciones para levantar el Entorno
+
+# 1_ colonar repositorio desde: 
     URL: https://github.com/cesar2016/Docker_Laravel_React_MySQL_and_phpmyadmin
 
-2 desde la raiz ejecutar: 
-        - docker-compose up -d     (levanta todos los contenedores)
-        - cd api && cp .env.example .env (habilita las variables de entorno)
-        - docker exec my_back php artisan migrate  ( Ejecuta las migraciones de laravel)
+# 2 desde la raiz ejecutar: 
+    docker-compose up -d     (levanta todos los contenedores)
+    cd api && cp .env.example .env (habilita las variables de entorno)
+    docker exec my_back php artisan migrate  ( Ejecuta las migraciones de laravel)
 
-3_ Ingresar desde nvegador:
-
+# 3_ Ingresar desde nvegador:
     Frontend: http://localhost:3001
     backend: http://localhost:8200
     phpmyadmin: http://localhost:8300
@@ -24,7 +28,9 @@ Intrucciones para levantar el Entorno
 - El proyecto de frontend esta generado con node.js y React en /front
 
 I
-
+## AUTOR:
+- cesars.pro@gmail.com
+- Linkedin: https://www.linkedin.com/in/cesar-sanchez-dev/
 
 
 
