@@ -31,5 +31,4 @@ RUN rm -r /var/www/html \
     && chmod -R 0777 /var/www/storage/
 
 RUN composer install
-RUN php artisan migrate
 
