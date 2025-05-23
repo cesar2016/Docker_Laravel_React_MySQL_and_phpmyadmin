@@ -8,9 +8,9 @@
     URL: https://github.com/cesar2016/Docker_Laravel_React_MySQL_and_phpmyadmin
 
 # 2 desde la raiz ejecutar
-    docker-compose up -d     (levanta todos los contenedores)
-    cd api && cp .env.example .env (habilita las variables de entorno)
-    docker exec my_back php artisan migrate  ( Ejecuta las migraciones de laravel)
+    docker-compose up -d     #levanta todos los contenedores
+    cd api && cp .env.example .env #habilita las variables de entorno
+    docker exec my_back php artisan migrate  #Ejecuta las migraciones de laravel
 
 # 3 Ingresar desde el navegador
     Frontend: http://localhost:3001
