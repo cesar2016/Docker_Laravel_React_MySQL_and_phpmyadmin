@@ -38,14 +38,17 @@ services:
         - my_network
 
   front:
-    image: node:14-alpine
+    build:  
+      context: ./front  
+      dockerfile: Dockerfile  
     container_name: my_front
     working_dir: /app
     command: "npm run start"
     volumes:
-     - ./front:/app
+      - ./front:/app  
+      - /app/node_modules
     ports:
-    - 3001:3000
+      - 3001:3000
     depends_on:
       - db
     networks:
